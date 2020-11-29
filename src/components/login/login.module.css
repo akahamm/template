@@ -1,0 +1,50 @@
+/** @format */
+
+.card {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 500px;
+  background-color: white;
+}
+.header {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 0.5em;
+}
+.header img {
+  max-width: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+}
+.content h1 {
+  margin: 0.5em;
+}
+.loginBtn {
+  text-align: center;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  padding: 0.5em 0;
+  margin: 0.2em;
+  cursor: pointer;
+  width: 100%;
+}
+.loginBtn:hover {
+  transform: scale(1.01);
+  transition: all 250ms ease-in-out;
+  background-color: darkblue;
+  opacity: 0.7;
+  color: white;
+}
+.footer {
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
